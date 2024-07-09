@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">  
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">       
+        <title>Encriptador de Texto</title> 
+    </head>
+
+    <body>
+        <header>
+            <div class="encabezado">
+                <h1>Encriptador de Texto</h1>
+                <img class="logo" src="./img/alura.png" alt="Alura" class="encabezado__imagen-alura" />
+            </div>    
+        </header>
+
+        <main>
+            <section>  
+                <h2> Texto que desea encriptar/desencriptar:</p>
+                <textarea class="entrada-texto" cols="40" rows="10" placeholder="Por favor ingrese el texto aquí (sólo minúsculas y sin tildes)" autofocus></textarea>
+                <div class="encabezado__informaciones">
+                </div>             
+                <div class="botones">
+                    <button class="encriptar" onclick="encriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>                            
+            </section>    
+            <section>
+                <h2>Texto encriptado/desencriptado:</p>
+                <textarea class="salida-texto" cols="20" rows="10" disabled></textarea>                
+            </section>
+        </main>
+
+        <footer>
+            <p class="desarrolladora">Encriptador realizado por Melissa Espinoza Porras</p>
+        </footer>
+
+    </body>
+
+    <script src="script.js"></script>
+
+</html>
+
