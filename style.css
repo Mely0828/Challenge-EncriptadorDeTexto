@@ -30,7 +30,7 @@ main{
 }
 .salida-texto{
     background: white;
-    background-image: url("/img/figura.PNG");
+    background-image: url("./img/figura.png");
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
